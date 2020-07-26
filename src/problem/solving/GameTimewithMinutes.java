@@ -29,7 +29,7 @@ public class GameTimewithMinutes {
         
         if (min < 0) {
             min = 60 + (em - sm);
-            hour -= 1;
+            hour--;
         } 
         
         if (sh == eh && sm == em) {
